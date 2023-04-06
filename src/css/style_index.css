@@ -1,0 +1,101 @@
+* {
+  background-color: #2e4d5e;
+  overflow: hidden;
+}
+
+.secao {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.left_side {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  justify-items: end;
+}
+
+.image {
+  width: 100%;
+  position: static;
+}
+
+.blur {
+  height: 150vh;
+  margin-bottom: 10%;
+  background-color: #2e4d5e;
+  filter: blur(53px);
+  transform: rotate(10deg);
+  width: 300px;
+  position: absolute;
+  align-self: center;
+  justify-items: end;
+}
+
+.right_side {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 10% 80% 10%;
+  align-items: center;
+  justify-items: center;
+}
+
+.project_title {
+  color: white;
+  font-size: 1.2rem;
+  justify-content: end;
+  justify-self: end;
+  padding: 10px 30px;
+  font-style: italic;
+  opacity: 50%;
+  font-family: "Inter", sans-serif;
+}
+
+.person_text {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  line-height: 35px;
+  padding: 35px 35px;
+}
+
+.person_name {
+  font-size: 2.5rem;
+  justify-self: start;
+  margin-bottom: 80px;
+}
+
+.next_button {
+  background-color: white;
+  text-align: center;
+  height: 30px;
+  text-decoration: none;
+  color: transparent !important;
+  align-self: baseline;
+  justify-self: end;
+  margin-right: 50px;
+  width: 320px;
+  border-radius: 15px;
+  font-family: "Inter", sans-serif;
+
+  transition: 0.5s;
+}
+
+.next_button:hover {
+  border: 2px solid white;
+  background-color: transparent;
+  transform: scale(1.1);
+}
+
+.button_text {
+  justify-self: center;
+  margin-top: 05px;
+  background-color: transparent;
+  color: #2e4d5e;
+}
+
+.button_text:hover {
+  color: white;
+}
