@@ -143,10 +143,11 @@
   }
 
   .header-texts {
-    background-color: transparent;
+    background-color: #d9d9d9;
     line-height: 20px;
     justify-self: flex-start;
     margin-left: 5px;
+    color: #2e4d5e;
   }
 
   .header-title {
