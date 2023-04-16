@@ -104,6 +104,7 @@
 @media screen and (max-width: 1023px) {
   * {
     background-color: #2e4d5e;
+    overflow-y: visible;
   }
 
   .secao {
