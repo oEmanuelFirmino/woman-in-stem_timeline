@@ -131,7 +131,7 @@
     filter: blur(53px);
     transform: rotate(80deg);
     width: 300px;
-    position: fixed;
+    position: absolute;
     align-self: center;
     margin-top: 110%;
   }
