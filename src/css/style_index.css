@@ -117,23 +117,22 @@
     height: 100%;
     display: grid;
     grid-template-rows: 80% 20%;
-    justify-items: end;
+    justify-items: center;
   }
 
   .image {
-    width: 100%;
+    width: 100vw;
     position: static;
   }
 
   .blur {
-    height: 150vh;
+    height: 100%;
     background-color: #2e4d5e;
     filter: blur(53px);
     transform: rotate(80deg);
     width: 300px;
-    position: absolute;
+    position: fixed;
     align-self: center;
-    justify-items: end;
     margin-top: 110%;
   }
 
