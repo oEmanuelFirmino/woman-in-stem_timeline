@@ -34,7 +34,7 @@ const logArrayinfo = (buttonChangeAttributes, index) => {
                 year.innerHTML = "1983"
                 resume.innerHTML = "Peace Corps service"
                 dinamicText.innerHTML = "After completing her studies, Jemison joined the US Peace Corps and served as a medical volunteer in Liberia and Sierra Leone from 1983 to 1985.";
-                attr.value = ""
+                attr.value = "https://media.defense.gov/2012/Feb/09/2000179665/2000/2000/0/120211-F-MJ123-006.JPG"
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
@@ -50,7 +50,7 @@ const logArrayinfo = (buttonChangeAttributes, index) => {
                 year.innerHTML = "1992"
                 resume.innerHTML = "STS-47 Mission"
                 dinamicText.innerHTML = "In September 1992, Jemison became the first African American woman to travel to space as a member of the space shuttle Endeavour crew on the STS-47 mission. During the mission, she conducted medical experiments in microgravity.";
-                attr.value = "https://cdn.britannica.com/04/1804-004-1457B2DB/Atlantis-Mae-Jemison-preflight-switch-test-crew-1989.jpg?w=300"
+                attr.value = "https://www.britannica.com/explore/space/wp-content/uploads/sites/5/2019/06/0000194188-1024x678.jpg"
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
@@ -58,7 +58,7 @@ const logArrayinfo = (buttonChangeAttributes, index) => {
                 year.innerHTML = "1993"
                 resume.innerHTML = "Departure from NASA"
                 dinamicText.innerHTML = "In 1993, Jemison left NASA to found the research and technology development company The Jemison Group, Inc. It aims to promote science and technology among youth from underrepresented groups.";
-                attr.value = ""
+                attr.value = "https://ximage.c-spanvideo.org/eyJidWNrZXQiOiJwaWN0dXJlcy5jLXNwYW52aWRlby5vcmciLCJrZXkiOiJGaWxlc1wvYzU2XC8xOTk4MDUxMjAwMzI0MzAwMl9oZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJoZWlnaHQiOjYzMCwid2lkdGgiOjEyMDB9fX0="
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
