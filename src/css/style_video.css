@@ -1,0 +1,50 @@
+* {
+  background-color: #2e4d5e;
+  overflow: hidden;
+  margin: 2px;
+}
+
+.page_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+  align-items: center;
+  justify-items: center;
+}
+
+.left_side {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+  box-shadow: #1d2e38 5px 5px 5px;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: #2e4d5e;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.video_container {
+  border-radius: 20px;
+  box-shadow: black 5px 5px 5px;
+}
+
+#quote {
+  font-size: 1.8rem;
+  color: #d9d9d9;
+}
+
+#author_name {
+  color: #d9d9d9;
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+.header_icon:hover {
+  transform: scale(1.1);
+}

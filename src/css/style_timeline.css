@@ -160,11 +160,33 @@
     justify-items: center;
   }
 
+  .buttons {
+    height: 30px;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header_button {
+    align-self: flex-start;
+    justify-self: flex-start;
+    margin: 5px 5px;
+    background-color: transparent;
+    width: 25px;
+    background-color: transparent;
+  }
+
+  .header_icon {
+    background-color: transparent;
+    width: 20px;
+  }
+
   .header-image {
     width: 150px;
     align-self: center;
     justify-self: center;
     border-radius: 15px;
+    margin-left: 5px;
   }
 
   .header-texts {

@@ -121,8 +121,10 @@
   }
 
   .image {
-    width: 100vw;
-    position: static;
+    width: 100%;
+    /* position: static; */
+    object-fit: cover;
+    object-position: 20% 10%;
   }
 
   .blur {
@@ -131,9 +133,10 @@
     filter: blur(53px);
     transform: rotate(80deg);
     width: 300px;
-    position: absolute;
+    position: fixed;
     align-self: center;
     margin-top: 110%;
+    z-index: 0;
   }
 
   .right_side {
@@ -147,17 +150,7 @@
 
   .person_resume {
     margin-top: 100px;
-  }
-
-  .project_title {
-    color: white;
-    font-size: 1.2rem;
-    justify-content: end;
-    justify-self: start;
-    padding: 10px 30px;
-    font-style: italic;
-    opacity: 50%;
-    font-family: "Inter", sans-serif;
+    z-index: 3;
   }
 
   .person_text {
@@ -166,6 +159,7 @@
     font-family: "Inter", sans-serif;
     line-height: 35px;
     padding: 35px 35px;
+    z-index: 3;
   }
 
   .person_name {
