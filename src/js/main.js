@@ -26,7 +26,7 @@ const logArrayinfo = (buttonChangeAttributes, index) => {
                 year.innerHTML = "1977";
                 resume.innerHTML = "Academic background";
                 dinamicText.innerHTML = "Mae Jemison studied chemical engineering at Stanford University and earned her degree in 1977. She continued her studies at Cornell University and earned a medical degree in 1981.";
-                attr.value = ""
+                attr.value = "https://i0.wp.com/www.chicagohistory.org/wp-content/uploads/2020/10/Mae-Jemison-st17500823.jpg?resize=700%2C507&ssl=1"
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
@@ -34,7 +34,7 @@ const logArrayinfo = (buttonChangeAttributes, index) => {
                 year.innerHTML = "1983"
                 resume.innerHTML = "Peace Corps service"
                 dinamicText.innerHTML = "After completing her studies, Jemison joined the US Peace Corps and served as a medical volunteer in Liberia and Sierra Leone from 1983 to 1985.";
-                attr.value = "https://a.cdn-hotels.com/gdcs/production104/d87/607b5514-cc8b-4db2-a40b-8087b6dd9135.jpg?impolicy=fcrop&w=800&h=533&q=medium"
+                attr.value = ""
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
