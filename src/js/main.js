@@ -18,7 +18,7 @@ const logArrayinfo = (buttonChangeAttributes, index) => {
                 year.innerHTML = "1956";
                 resume.innerHTML = "Beginning of life";
                 dinamicText.innerHTML = "Mae Carol Jemison was born in Decatur, Alabama, but grew up in Chicago, Illinois. From a young age, she showed an interest in science and was encouraged by her parents to pursue her academic dreams and goals. Jemison attended public schools in Chicago and later went to Stanford University, where she studied chemical engineering. She continued her studies at Cornell University, where she earned a medical degree.";
-                attr.value = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Decatur_Alabama_-_Tennessee_River_view.jpg/300px-Decatur_Alabama_-_Tennessee_River_view.jpg"
+                attr.value = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREAktBCAX8f_PnokORQKPpJ4EnIqEkmz1UDsFUMArdjz-m7WUMevYhbv9b1xrapAKniiE&usqp=CAU"
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
@@ -66,14 +66,14 @@ const logArrayinfo = (buttonChangeAttributes, index) => {
                 year.innerHTML = "2011"
                 resume.innerHTML = "Founded 100 Year Starship"
                 dinamicText.innerHTML = "Foundation of the 100 Year Starship: In 2011, Jemison founded the 100 Year Starship, a non-profit organization dedicated to promoting interstellar exploration.";
-                attr.value = ""
+                attr.value = "https://pbs.twimg.com/media/DMYlsW_VoAASRSS.jpg"
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
             case 7:
                 year.innerHTML = "2023"
-                resume.innerHTML = "h"
-                dinamicText.innerHTML = "Sed tincidunt viverra ligula vel pharetra. Fusce rutrum ex neque, sit amet tincidunt nisi tincidunt malesuada. Mauris sed blandit justo. Etiam mi velit, placerat ac metus at, maximus rutrum lectus.";
+                resume.innerHTML = "Nowadays these days"
+                dinamicText.innerHTML = "Mae Jemison is still alive today and continues to be involved in various projects related to science and education. She is a sought-after speaker and has given many speeches and presentations on topics ranging from space exploration to diversity and inclusion in science and technology. Jemison also runs The Jemison Group, a consulting company that promotes science and technology education among young people, especially those from underrepresented groups.";
                 attr.value = "https://engenharia360.com/wp-content/uploads/mae-jemison-blog-da-engenharia-6.jpg"
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
