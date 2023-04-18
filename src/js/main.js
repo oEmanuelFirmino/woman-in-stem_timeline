@@ -58,7 +58,7 @@ const logArrayinfo = (buttonChangeAttributes, index) => {
                 year.innerHTML = "1993"
                 resume.innerHTML = "Departure from NASA"
                 dinamicText.innerHTML = "In 1993, Jemison left NASA to found the research and technology development company The Jemison Group, Inc. It aims to promote science and technology among youth from underrepresented groups.";
-                attr.value = "https://ximage.c-spanvideo.org/eyJidWNrZXQiOiJwaWN0dXJlcy5jLXNwYW52aWRlby5vcmciLCJrZXkiOiJGaWxlc1wvYzU2XC8xOTk4MDUxMjAwMzI0MzAwMl9oZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJoZWlnaHQiOjYzMCwid2lkdGgiOjEyMDB9fX0="
+                attr.value = ""
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
