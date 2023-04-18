@@ -16,65 +16,65 @@ const logArrayinfo = (buttonChangeAttributes, index) => {
         switch (index) {
             case 0:
                 year.innerHTML = "1956";
-                resume.innerHTML = "a";
-                dinamicText.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus neque et neque condimentum egestas. Praesent ut massa libero. Nam tincidunt quam eget sem dictum pellentesque. Integer consectetur ex nisl, et condimentum lectus pulvinar non. Vivamus imperdiet cursus mauris ac dictum. Aenean iaculis dui interdum, consequat risus accumsan, sagittis neque. Etiam tincidunt sodales sollicitudin.";
+                resume.innerHTML = "Beginning of life";
+                dinamicText.innerHTML = "Mae Carol Jemison was born in Decatur, Alabama, but grew up in Chicago, Illinois. From a young age, she showed an interest in science and was encouraged by her parents to pursue her academic dreams and goals. Jemison attended public schools in Chicago and later went to Stanford University, where she studied chemical engineering. She continued her studies at Cornell University, where she earned a medical degree.";
                 attr.value = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Decatur_Alabama_-_Tennessee_River_view.jpg/300px-Decatur_Alabama_-_Tennessee_River_view.jpg"
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
             case 1:
-                year.innerHTML = "1973";
-                resume.innerHTML = "b";
-                dinamicText.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus neque et neque condimentum egestas.";
+                year.innerHTML = "1977";
+                resume.innerHTML = "Academic background";
+                dinamicText.innerHTML = "Mae Jemison studied chemical engineering at Stanford University and earned her degree in 1977. She continued her studies at Cornell University and earned a medical degree in 1981.";
                 attr.value = ""
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
             case 2:
-                year.innerHTML = "1977"
-                resume.innerHTML = "c"
-                dinamicText.innerHTML = "Suspendisse maximus neque et neque condimentum egestas. Praesent ut massa libero. Nam tincidunt quam eget sem dictum pellentesque.";
+                year.innerHTML = "1983"
+                resume.innerHTML = "Peace Corps service"
+                dinamicText.innerHTML = "After completing her studies, Jemison joined the US Peace Corps and served as a medical volunteer in Liberia and Sierra Leone from 1983 to 1985.";
                 attr.value = "https://a.cdn-hotels.com/gdcs/production104/d87/607b5514-cc8b-4db2-a40b-8087b6dd9135.jpg?impolicy=fcrop&w=800&h=533&q=medium"
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
             case 3:
                 year.innerHTML = "1987"
-                resume.innerHTML = "d"
-                dinamicText.innerHTML = "Vivamus imperdiet cursus mauris ac dictum. Aenean iaculis dui interdum, consequat risus accumsan, sagittis neque. Etiam tincidunt sodales sollicitudin.";
+                resume.innerHTML = "Selection by NASA"
+                dinamicText.innerHTML = "In 1987, Jemison was selected by NASA for the space shuttle program, becoming the first black female astronaut of the space agency.";
                 attr.value = ""
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
             case 4:
                 year.innerHTML = "1992"
-                resume.innerHTML = "e"
-                dinamicText.innerHTML = "Integer consectetur ex nisl, et condimentum lectus pulvinar non. Vivamus imperdiet cursus mauris ac dictum. Aenean iaculis dui interdum, consequat risus accumsan, sagittis neque. Etiam tincidunt sodales sollicitudin.";
-                attr.value = ""
+                resume.innerHTML = "STS-47 Mission"
+                dinamicText.innerHTML = "In September 1992, Jemison became the first African American woman to travel to space as a member of the space shuttle Endeavour crew on the STS-47 mission. During the mission, she conducted medical experiments in microgravity.";
+                attr.value = "https://cdn.britannica.com/04/1804-004-1457B2DB/Atlantis-Mae-Jemison-preflight-switch-test-crew-1989.jpg?w=300"
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
             case 5:
                 year.innerHTML = "1993"
-                resume.innerHTML = "f"
-                dinamicText.innerHTML = "Suspendisse maximus neque et neque condimentum egestas. Praesent ut massa libero. Nam tincidunt quam eget sem dictum pellentesque. Integer consectetur ex nisl, et condimentum lectus pulvinar non. Vivamus imperdiet cursus mauris ac dictum. Aenean iaculis dui interdum, consequat risus accumsan, sagittis neque. Etiam tincidunt sodales sollicitudin.";
+                resume.innerHTML = "Departure from NASA"
+                dinamicText.innerHTML = "In 1993, Jemison left NASA to found the research and technology development company The Jemison Group, Inc. It aims to promote science and technology among youth from underrepresented groups.";
                 attr.value = ""
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
             case 6:
-                year.innerHTML = "1995"
-                resume.innerHTML = "g"
-                dinamicText.innerHTML = "Integer consectetur ex nisl, et condimentum lectus pulvinar non. Vivamus imperdiet cursus mauris ac dictum. Aenean iaculis dui interdum, condimentum egestas. Praesent ut condimentum lectus pulvinar non";
+                year.innerHTML = "2011"
+                resume.innerHTML = "Founded 100 Year Starship"
+                dinamicText.innerHTML = "Foundation of the 100 Year Starship: In 2011, Jemison founded the 100 Year Starship, a non-profit organization dedicated to promoting interstellar exploration.";
                 attr.value = ""
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
             case 7:
-                year.innerHTML = "1996"
+                year.innerHTML = "2023"
                 resume.innerHTML = "h"
                 dinamicText.innerHTML = "Sed tincidunt viverra ligula vel pharetra. Fusce rutrum ex neque, sit amet tincidunt nisi tincidunt malesuada. Mauris sed blandit justo. Etiam mi velit, placerat ac metus at, maximus rutrum lectus.";
-                attr.value = ""
+                attr.value = "https://engenharia360.com/wp-content/uploads/mae-jemison-blog-da-engenharia-6.jpg"
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
