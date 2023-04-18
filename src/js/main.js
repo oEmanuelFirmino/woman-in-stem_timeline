@@ -42,7 +42,7 @@ const logArrayinfo = (buttonChangeAttributes, index) => {
                 year.innerHTML = "1987"
                 resume.innerHTML = "Selection by NASA"
                 dinamicText.innerHTML = "In 1987, Jemison was selected by NASA for the space shuttle program, becoming the first black female astronaut of the space agency.";
-                attr.value = ""
+                attr.value = "https://media.gettyimages.com/id/51623998/pt/foto/kennedy-space-center-united-states-science-mission-specialist-mae-jemison-prepares-to-climb-out.jpg?s=612x612&w=0&k=20&c=oSxvfBNAZl_8hVa0m9U3TelfoL2HDlxu3ave8b7yVhg="
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
@@ -58,7 +58,7 @@ const logArrayinfo = (buttonChangeAttributes, index) => {
                 year.innerHTML = "1993"
                 resume.innerHTML = "Departure from NASA"
                 dinamicText.innerHTML = "In 1993, Jemison left NASA to found the research and technology development company The Jemison Group, Inc. It aims to promote science and technology among youth from underrepresented groups.";
-                attr.value = ""
+                attr.value = "https://media.gettyimages.com/id/520690820/pt/foto/breakthrough-starshot-panel-members-freeman-dyson-ann-druyan-avi-loeb-mae-jemison-and-pete.jpg?s=612x612&w=0&k=20&c=UtuZ-fxdv8rAKNO5105otMItiuJUiLc0tBcMMk35jBk="
                 dinamicImage.style.display = "block";
                 dinamicText.style.display = "block";
                 break;
